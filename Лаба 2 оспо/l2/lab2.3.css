@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.output {
+    font-size: 50px;
+    color: black;
+	font-family: 'Indie Flower', cursive;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+.errorAge {
+    display: none;
+}
+p {
+	font-size: 50px;
+	color: black;
+}
+.errorName {
+    display: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: grey;
+}

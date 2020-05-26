@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lab2.3.css" />
+    <title>lab</title>
+</head>
+
+<body>
+    <h1 id="c">Введите свои данные, пожалуйста: </h1>
+    <form action="">
+        <div>
+            <p class="errorName">Заполните, пожалуйста, поля! </p>
+            <label for="name">Имя: </label>
+            <input class="name" type="text" name="name" placeholder="Введите имя" />
+        </div>
+        <div>
+            <p class="errorAge">The age must be positive</p>
+            <label for="age">Возраст: </label>
+            <input class="age" type="number" name="age" placeholder="Введите возраст" />
+        </div>
+        <div class=gender>
+            <label for="gender">Пол: </label> Муж
+            <input type="radio" name="gender" id="gender" value="male" /> Жен
+            <input type="radio" name="gender" id="gender" value="female" />
+        </div>
+
+        <button type="submit" class="btn">Готово!</button>
+    </form>
+    <div class="output"></div>
+    <script src="lab2.3.js"></script>
+</body>
+
+</html>
